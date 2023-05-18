@@ -1,0 +1,23 @@
+{
+  "name": "spy_party",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^2.1.0-types.1",
+    "@rbxts/types": "^1.0.684",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "eslint": "^8.40.0",
+    "eslint-plugin-roblox-ts": "^0.0.35",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@rbxts/services": "^1.5.1",
+    "@rbxts/tcs": "../tcs2/rbxts-tcs-1.0.2.tgz"
+  }
+}
